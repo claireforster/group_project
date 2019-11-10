@@ -14,10 +14,33 @@
 </head>
 
 
-<body>
 
+  <body>
+    <header>
+
+  <div id="navbar" class="stick">
+    <a href="./index.html">HOME</a>
+    <a href="./aboutus.html" >ABOUT US</a>
+    <a href="./coffeeshops.html">COFFEE SHOPS</a>
+    <a href="./contribute.html">TELL US </a>
+    <a class="title" style="float:right" href="index.html">Caffiene Fix</a></li>
+  </div>
+
+  <script>
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+  </script>
+    </header>
+    <p><p>
+<div class="CoffeeTitle">
 <h1><link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">Our Favourites</h1>
 <p>Our choice of Caffiene Fix</p>
+</div>
+
 <div class="coffeepics">
 <img src=images/coffeeshop1.jpg alt="Ozone" width="270" height="200"> </div>
 <div class="coffeepics">
