@@ -22,23 +22,31 @@
 <body>
 
 <div class="row">
+<!-- Navigation Bar -->
         <header>
-          <div class="col-sm-6 center-block">
-            <!--Font & Title -->
-          <h1> <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-            CAFFIENE FIX</h1>
-            <!--Subtitle -->
-        <h2> WHERE | COFFEE | LONDON </h2>
-          </div>
-          <div class="col-sm-6 center-block">
-            <nav class="navbar">
-              <i class="current-link"> <a href="./index.html">About</a> </i>
-              <i><a href="./coffeeshops.html">Our Coffee Shops</a></i>
-              <i><a href="./contribute.html">Tell Us</a></i>
-            </nav>
-          </div>
+      <div id="navbar" class="stick">
+        <a href="./aboutus.html" >ABOUT US</a>
+        <a href="./coffeeshops.html">COFFEE SHOPS</a>
+        <a href="./contribute.html">TELL US </a>
+        <a class="title" style="float:right" href="index.html">Caffiene Fix</a></li>
+      </div>
+
+
+      <script>
+      $(function () {
+        $(document).scroll(function () {
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+      });
+      </script>
         </header>
       </div>
+      <!--Font & Title -->
+    <h1> <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+      CAFFIENE FIX</h1>
+      <!--Subtitle -->
+  <P> WHERE | COFFEE | LONDON </p>
 
 
 <main role="main">
@@ -62,6 +70,19 @@
 </div>
 </main>
 
+<div class="icon-bar">
+      <ul>
+        <li>
+          <a href="https://twitter.com"><span class="tooltip" data-title="twitter"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com"><span class="tooltip" data-title="instagram"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com"><span class="tooltip" data-title="facebook"><i class="fab fa-facebook-square"></i></a>
+        </li>
+      </ul>
+    </div>
 
 
   </body>
