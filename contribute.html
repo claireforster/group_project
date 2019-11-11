@@ -43,10 +43,6 @@ $(function () {
 
 
 
-
-
-
-
 <div class="container" id="contribute-text">
   <p><p>
     <p><p>
@@ -59,30 +55,36 @@ $(function () {
         </p>
       </div>
 
+      <div class="sketch">
+        <img src=images/coffeesketch.jpg alt="sketch" width="80" height="100">
+      </div>
+<p><p>
      <form class="contribute-form" action="/action_page.php">
 
                 <label for="">Name of Coffee Shop</label>
                     <input type="text" class="form-control" id="name" placeholder="Enter name">
-
+                    <p><p>
                <label for="">Location</label>
-                 <input type="text" class="form-control" id="scientific-name" placeholder="Enter London Borough">
-
+                 <input type="text" class="form-control" id="London Borough" placeholder="Enter London Borough">
+                 <p><p>
                <label for="email">Closest Tube Station</label>
                  <textarea type="text" class="form-control" id="uses" placeholder="Enter closest tube/ train station" name="email"></textarea>
-
+                 <p><p>
              <label for="native-to">Character</label>
-              <textarea type="email" class="form-control" id="native-to" placeholder="Name a few reasons this Coffee Shop is your favourite"></textarea>
-
+              <textarea type="email" class="form-control" id="benefits" placeholder="Name a few reasons this Coffee Shop is your favourite"></textarea>
+              <p><p>
                <label for="email">Select images</label>
-                 <input type="file" class="form-control" id="" placeholder="Enter your email" name="img" multiple>
-
+                 <input type="file" class="form-control" id="images" placeholder="Enter your email" name="img" multiple>
+                 <p><p>
                <label  for="email">Email</label>
-                 <input type="text" class="form-control" id="uses" placeholder="Enter your email" name="email">
-
+                 <input type="text" class="form-control" id="email" placeholder="Enter your email" name="email">
+                 <p><p>
                  <div class="checkbox">
                    <label> <input type="checkbox" name="remember"> I confirm that all the images belong to me</label>
+                   <p><p>
 
-                 <button type="submit" class="btn btn-default">Submit</button>
+                 <!-- <button type="submit" class="btn btn-default">Submit <a href="./index.html">HOME</a> </button> -->
+                 <button onclick="window.location href="./thanks" class="btn btn-default" >Submit</button>
          </form>
        </div>
 
