@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+
+<body style="background-color:#505050;">
+
+<title> Notes </title>
+<!--Coffee Shop Logo-->
+<div>
+<img src=images/noteslogo.jpg alt="Pic1" width="270" height="175">
+</div>
+
+
+<head>
+  <!--Bootstrap Link -->
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <!--Css overrider Link -->
+    <link rel="stylesheet" type="text/css" href="styles.css/styles.css">
+
+    <!-- jQuery library -->
+    <script>
+    document.getElementById("expandedImg").defaultValue = document.getElementById("default")
+
+    function myFunction(imgs) {
+      // Get the expanded image
+      var expandImg = document.getElementById("expandedImg");
+      // Get the image text
+      var imgText = document.getElementById("imgtext");
+      // Use the same src in the expanded image as the image being clicked on from the grid
+      expandImg.src = imgs.src;
+      // Use the value of the alt attribute of the clickable image as text inside the expanded image
+      imgText.innerHTML = imgs.alt;
+      // Show the container element (hidden with CSS)
+      expandImg.parentElement.style.display = "block";
+    }
+
+    </script>
+    <!-- <script src="JS/script.js" rel="bootstrapjs"></script> -->
+</head>
+
+<body>
+<!--Title under logo-->
+  <h1> Coffee Roasters & Bar </h1>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+
+<!--Nav bar-->
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+            <a class="nav-link" href="./aboutus.html">ABOUT US <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./coffeeshops.html">COFFEE SHOPS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contribute.html">TELL US</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+<!--Description-->
+<h3>
+  Enjoy the relaxed atmosphere, drinking premium ethically sourced coffee from small farms and co-operatives around the world.
+</h3>
+<h3>
+  They focus on high grade, seasonal, single origin coffee, small batch roasted to deliver a delicate and unique flavour.  Notes also offers delicious seasonally-inspired food throughout the day.
+</h3>
+
+<h3>
+  When your work is done, unwind and discover the selection of craft beers, wine and cocktails.
+</h3>
+
+<h3>
+  With nine prime locations across central London, a Notes Cafe is the perfect place to get your Caffeine fix.
+</h3>
+
+<!--Buttons to page links-->
+<div>
+
+<a type="button" class="btn btn-outline-secondary" href="https://notescoffee.com/">Homepage</a>
+<a type="button" class="btn btn-outline-secondary" href="https://notescoffee.com/locations">Locations</a>
+<a type="button" class="btn btn-outline-secondary" href="https://notescoffee.com/menus">Menu</a>
+
+<p> </p>
+
+</div>
+<!--Pictures-->
+
+
+<p> </P>
+
+
+</body>
+
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="images/notes2.jpg" alt="" onclick="myFunction(this);" width="200" height="200" id="default">
+  </div>
+  <div class="column">
+    <img src="images/notes4.jpg" alt="" onclick="myFunction(this);" width="200" height="200">
+  </div>
+  <div class="column">
+    <img src="images/notes1.jpg" alt="" onclick="myFunction(this);" width="200" height="200">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
+
+
+
+
+
+</html>
