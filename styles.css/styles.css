@@ -41,21 +41,21 @@ body {
 
 /* Link for photo */
 
-.row {
+.coffeerow {
   display: flex;
   flex-wrap: wrap;
-  Padding-top: 3px;
-  padding-bottom:3px;  
+  Padding-top: 6px;
+  padding-bottom:6px;
 }
 
-.column {
-  flex: 33%;
+.coffeecolumn {
+  flex: 30%;
   max-width: 33%;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
-.column img {
+.coffeecolumn img {
   margin-top: 10px;
   vertical-align: middle;
   width: 100%;
@@ -63,7 +63,7 @@ body {
 
 
 @media screen and (max-width: 800px) {
-  .column {
+  .coffeecolumn {
     flex: 50%;
     max-width: 50%;
   }
@@ -71,17 +71,16 @@ body {
 
 
 
-/* Coffee Shops Page Formatting */
+/* Coffee Shops Text Formatting */
+p1 {
+font-family: 'Open Sans', sans-serif;
+text-transform: uppercase;
+font-size: 1.5rem;
+letter-spacing: 0.1em;
+line-height: 1em;
+margin-bottom: 20px;
+  }
 
-.container {
-top: 5px;
-width: 100%;
-padding: 10px;
-margin-left: auto;
-margin-right: auto;
-    overflow: hidden;
-
-}
 
 /* Rows */
 .coffeerow {
