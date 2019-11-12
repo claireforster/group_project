@@ -96,6 +96,43 @@ width: 100%;
 
 
 
+/* Link for photo */
+
+/* .coffeerow {
+  display: flex;
+  flex-wrap: wrap;
+  Padding-top: 3px;
+  padding-bottom:3px;
+} */
+
+.coffeerow {
+position: relative;
+padding-right: 15px;
+padding-left: 15px;
+height: 240px;
+width: 100%;
+}
+
+.coffeecolumn {
+  flex: 33%;
+  max-width: 33%;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.coffeecolumn img {
+  margin-top: 10px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+/* @media screen and (max-width: 800px) {
+  .coffeecolumn {
+    flex: 50%;
+    max-width: 50%;
+  } */
+
 
 /*  Navigation Bar */
 .stick {
