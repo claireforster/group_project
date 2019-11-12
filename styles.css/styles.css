@@ -18,7 +18,7 @@ body {
   padding-top: 5rem;
 }
 .starter-template {
-  padding: 3rem 1.5rem;
+  padding: 1rem 1.5rem;
   text-align: center;
   color: #343a40;
   font-family: 'Open Sans', sans-serif;
@@ -41,7 +41,7 @@ body {
 /*  Navigation Bar */
 .stick {
   position: fixed;
-  top: 0;
+  top: 5px;
   width: 100%;
   background-color: white;
   color: #343a40;
@@ -54,7 +54,7 @@ float: left;
 display: block;
 color: #343a40;
 text-align: center;
-padding: 14px 16px;
+padding: 16px;
 text-decoration: none;
 font-family: 'Open Sans', sans-serif;
 font-size: 17px;
@@ -68,7 +68,6 @@ font-size: 17px;
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #343a40;
   color: white;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
@@ -77,16 +76,39 @@ font-size: 17px;
 
 
 /* Format the contribute form */
-contact_form {
+.contribute-form {
     margin-left: auto;
     margin-right: auto;
-    width: 343px;
-    height: 500px;
+    width: 443px;
+    height: 690px;
     padding: 30px;
     border: 1px solid rgba(0,0,0,0);
     background-clip: padding-box;
     overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fadadd;
+
   }
+
+/* Format the inner text on contribute form */
+.form-control {
+font-size: 11px;
+padding: 14px 16px;
+}
+
+/* Increase height of images on form */
+#images {
+height:45px;
+}
+
+
+/* Format the submit button on form */
+.btn {
+  border:3px solid #343a40;
+  background-color: white;
+
+}
+
 
 
 
