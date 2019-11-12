@@ -2,14 +2,14 @@
 /* Title on Homepage */
 .HomeTitle {
         color: #343a40;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Special Elite';
         text-align: center;
         box-sizing: border-box;
 }
 
 body {
         color: #343a40;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Special Elite', cursive;
         text-align: center;
         box-sizing: border-box;
 }
@@ -17,15 +17,51 @@ body {
 body {
   padding-top: 5rem;
 }
+
+h1 {
+font-family: 'Special Elite', cursive;
+font-size: 48px;
+font-weight: 700;
+color: #861657;
+
+}
+
+h2 {
+font-family: 'Special Elite';
+font-size:32px;
+font-weight: 400;
+color: #861657;
+
+}
 .starter-template {
+  font-family: 'Special Elite', cursive;
   padding: 1rem 1.5rem;
   text-align: center;
   color: #343a40;
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   box-sizing: border-box;
 }
 
+ /* about us page */
+
+
+ .img-lucy {
+	width: 200px;
+	height:200px;
+	border-radius:50%;
+}
+
+.img-claire {
+  width: 200px;
+	height:200px;
+	border-radius:50%;
+}
+
+.img-olivia {
+  width: 200px;
+	height:200px;
+	border-radius:50%;
+}
 
 /* Coffee Pics Hover Image */
 .coffeepics{
@@ -96,13 +132,45 @@ width: 100%;
 
 
 
+/* Social media */
+@media (max-width:900px) {
+	.container{
+		width:700px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width:500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 300px;
+	}
+}
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+}
+.list-inline i {
+	color:#E67D98;
+	padding:0px;
+	font-size: 48px;
+	margin: 10px;
+}
+
 
 /*  Navigation Bar */
 .stick {
   position: fixed;
   top: 5px;
   width: 100%;
-  background-color: white;
+  background-color: #ECD2CC;
   color: #343a40;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
