@@ -39,11 +39,19 @@ body {
 
 /* Link for photo */
 
-.coffeerow {
+/* .coffeerow {
   display: flex;
   flex-wrap: wrap;
   Padding-top: 3px;
   padding-bottom:3px;
+} */
+
+.coffeerow {
+position: relative;
+padding-right: 15px;
+padding-left: 15px;
+height: 240px;
+width: 100%;
 }
 
 .coffeecolumn {
