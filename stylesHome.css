@@ -1,0 +1,21 @@
+
+/* Homepage only */
+/* Carousel broke when added to other styles sheet */
+
+
+/* Homepage */
+
+
+      /* Title on Homepage */
+      .HomeTitle {
+              font-size: 30px;
+              text-align: center;
+            }
+
+      body {
+              color: #343a40;
+              font-family: 'Open Sans', sans-serif;
+              text-align: center;
+              box-sizing: border-box;
+              padding-top: 5rem;
+      }

@@ -1,229 +1,165 @@
 
-/* Title on Homepage */
-.HomeTitle {
-        color: #343a40;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        box-sizing: border-box;
-}
+/* All pages apart from Home*/
 
-body {
-        color: #343a40;
-        font-family: 'Open Sans', sans-serif;
-        text-align: center;
-        box-sizing: border-box;
-}
+          body {
+                  color: #343a40;
+                  font-family: 'Open Sans', sans-serif;
+                  text-align: center;
+                  box-sizing: border-box;
+                  padding-top: 5rem;
+          }
 
-body {
-  padding-top: 5rem;
-}
-.starter-template {
-  padding: 1rem 1.5rem;
-  text-align: center;
-  color: #343a40;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  box-sizing: border-box;
-}
+      /*  Navigation Bar */
+                                .stick {
+                                  position: fixed;
+                                  top: 5px;
+                                  width: 100%;
+                                  background: white;
+                                  color: #343a40;
+                                  font-family: 'Open Sans', sans-serif;
+                                  text-align: center;
+                                  box-sizing: border-box;
+                                }
+                                #navbar a{
+                                float: left;
+                                display: block;
+                                color: #343a40;
+                                text-align: center;
+                                padding: 16px;
+                                text-decoration: none;
+                                font-family: 'Open Sans', sans-serif;
+                                font-size: 17px;
+                                }
+                                #navbar a:hover {
+                                  color: black;
+                                }
 
+/* Coffee Shops Page */
 
-/* Coffee Pics Hover Image */
-.coffeepics{
-  opacity: 1.0;
-  filter: alpha(opacity=100);
-  height: 400px;
-}
-.coffeepics:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+    /* Coffee Pics Hover Image */
+            .coffeepics{
+                  opacity: 1.0;
+                  filter: alpha(opacity=100);
+                  height: 400px;
+                }
+            .coffeepics:hover {
+                  opacity: 0.5;
+                  filter: alpha(opacity=50);
+                }
 
-}
-
-/* Link for photo */
-
-.coffeerow {
-  display: flex;
-  flex-wrap: wrap;
-  Padding-top: 3px;
-  padding-bottom:3px;
-}
-
-.coffeecolumn {
-  flex: 33%;
-  max-width: 33%;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-.coffeecolumn img {
-  margin-top: 10px;
-  vertical-align: middle;
-  width: 100%;
-}
+    /* Coffee Shops photo formatting */
 
 
-@media screen and (max-width: 800px) {
-  .coffeecolumn {
-    flex: 50%;
-    max-width: 50%;
-  }}
+          .coffeerow {
+                position: relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+
+                }
+
+          .coffeecolumn {
+                flex: 33%;
+                max-width: 33%;
+                padding-left: 30px;
+                padding-right: 30px;
+              }
+
+          .coffeecolumn img {
+                margin-top: 10px;
+                vertical-align: middle;
+                width: 100%;
+                padding-top: 30px;
+                padding-bottom: 30px;
+              }
 
 
+      /* Coffee Shops text formatting */
+      p1 {
+              color: #343a40;
+              font-family: 'Open Sans', sans-serif;
+              text-align: center;
+              box-sizing: border-box;
+              padding-top: 5rem;
+              font-size: 20px;
+      }
+
+/* Contribute Page */
+
+    /* Title on Contribute Page       */
+              h2 {
+              font-family: 'Open Sans', sans-serif;
+              text-transform: uppercase;
+              font-size: 1.5rem;
+              letter-spacing: 0.1em;
+              line-height: 1em;
+              margin-bottom: 20px;
+                }
+
+          /* Format the contribute form */
+                .contribute-form {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 443px;
+                    height: 690px;
+                    padding: 30px;
+                    border: 1px solid rgba(0,0,0,0);
+                    background-clip: padding-box;
+                    overflow: hidden;
+                    font-family: 'Open Sans', sans-serif;
+                    background-color: #fadadd;
+
+                  }
 
 
-/* Coffee Shops Page Formatting */
+          /* Format the inner text on contribute form */
+              .form-control {
+              font-size: 11px;
+              padding: 14px 16px;
+              }
 
-.container {
-top: 5px;
-width: 100%;
-padding: 10px;
-margin-left: auto;
-margin-right: auto;
-    overflow: hidden;
-}
-
-/* Rows */
-.coffeerow {
-position: relative;
-padding-right: 15px;
-padding-left: 15px;
-height: 240px;
-width: 100%;
-}
+          /* Increase height of images on form */
+              #images {
+              height:45px;
+              }
 
 
+          /* Format the submit button on form */
+                .btn {
+                  border:3px solid #343a40;
+                  background-color: white;
+
+                }
 
 
-
-/* Link for photo */
-
-/* .coffeerow {
-  display: flex;
-  flex-wrap: wrap;
-  Padding-top: 3px;
-  padding-bottom:3px;
-} */
-
-.coffeerow {
-position: relative;
-padding-right: 15px;
-padding-left: 15px;
-height: 240px;
-width: 100%;
-}
-
-.coffeecolumn {
-  flex: 33%;
-  max-width: 33%;
-  padding-left: 3px;
-  padding-right: 3px;
-}
-
-.coffeecolumn img {
-  margin-top: 10px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-
-/* @media screen and (max-width: 800px) {
-  .coffeecolumn {
-    flex: 50%;
-    max-width: 50%;
-  } */
-
-
-/*  Navigation Bar */
-.stick {
-  position: fixed;
-  top: 5px;
-  width: 100%;
-  background-color: white;
-  color: #343a40;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  box-sizing: border-box;
-}
-#navbar a{
-float: left;
-display: block;
-color: #343a40;
-text-align: center;
-padding: 16px;
-text-decoration: none;
-font-family: 'Open Sans', sans-serif;
-font-size: 17px;
-}
-#navbar a:hover {
-  color: black;
-}
-
-/*  Homepage Navigation Bar */
-.homenav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  box-sizing: border-box;
-}
-
-
-/* Format the contribute form */
-.contribute-form {
-    margin-left: auto;
-    margin-right: auto;
-    width: 443px;
-    height: 690px;
-    padding: 30px;
-    border: 1px solid rgba(0,0,0,0);
-    background-clip: padding-box;
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #fadadd;
-
+/* Individual Coffee Shop Pages */
+.inforow {
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-/* Format the inner text on contribute form */
-.form-control {
-font-size: 11px;
-padding: 14px 16px;
-}
-
-/* Increase height of images on form */
-#images {
-height:45px;
-}
-
-
-/* Format the submit button on form */
-.btn {
-  border:3px solid #343a40;
-  background-color: white;
-
-}
-
-
-
-
-/* Title on Homepage */
-h1{
-        font-size: 30px;
-        font-family: 'Open Sans', sans-serif;
+  .infocolumn {
+        flex: 33%;
+        max-width: 33%;
+        padding-left: 30px;
+        padding-right: 30px;
       }
-/*
-Title on Contribute Page       */
-    h2 {
-    font-family: 'Open Sans', sans-serif;
+
+h4{
+      border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding: .625rem 0;
     text-transform: uppercase;
-    font-size: 1.5rem;
-    letter-spacing: 0.1em;
-    line-height: 1em;
-    margin-bottom: 20px;
-      }
+}
 
-.icon-bar{
+/* .icon-bar{
     opacity: 0;
     position: fixed;
 top: 50%;
@@ -249,57 +185,4 @@ transform: translateY(-50%);
         font-size: inherit;
         text-rendering: auto;
         -webkit-font-smoothing: antialiased;
-      }
-
-
-
-<!--trial-->
-
-/* The grid: Four equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-}
-
-/* Style the images inside the grid */
-.column img {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.column img:hover {
-  opacity: 1;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* The expanding image container (positioning is needed to position the close button and the text) */
-.container {
-  position: relative;
-  display: none;
-}
-
-/* Expanding image text */
-#imgtext {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-  color: white;
-  font-size: 20px;
-}
-
-/* Closable button inside the image */
-.closebtn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-  color: white;
-  font-size: 35px;
-  cursor: pointer;
-}
+      } */

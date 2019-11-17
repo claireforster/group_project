@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 
-<body style="background-color:#505050;">
+<!-- <body style="background-color:#505050;"> -->
 
 <title> Notes </title>
 <!--Coffee Shop Logo-->
@@ -38,27 +38,29 @@
 </head>
 
 <body>
-<!--Title under logo-->
-  <h1> Coffee Roasters & Bar </h1>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
 
 
 <!--Nav bar-->
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-            <a class="nav-link" href="./aboutus.html">ABOUT US <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./coffeeshops.html">COFFEE SHOPS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contribute.html">TELL US</a>
-          </li>
-      </ul>
+    <<div id="navbar" class="stick">
+      <a href="./index.html">HOME</a>
+      <a href="./aboutus.html" >ABOUT US</a>
+      <a href="./coffeeshops.html">COFFEE SHOPS</a>
+      <a href="./contribute.html">TELL US </a>
+      <a class="title" style="float:right" href="index.html">Caffeine Fix</a></li>
     </div>
-  </nav>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+    </script>
+
+    <!--Title under logo-->
+      <h1> Coffee Roasters & Bar </h1>
 
 <!--Description-->
 <h3>
@@ -120,7 +122,32 @@
 </div>
 
 
+<!-- Extra Information -->
+  <div class="inforow">
+    <div class="infocolumn">
+            <h4>Location</h4>
+      </div>
+      <div class="infocolumn">
+            <h4>Opening Times</h4>
+            <p>Monday-Wednesday: 07.00 &mdash; 21.00&nbsp;</p>
+              <p>Thursday-Friday: 07.00 &mdash; 22.00&nbsp;</p>
+              <p>Saturday: 09.00 &mdash; 18.30&nbsp;</p>
+              <p>Sunday: 09.00 &mdash; 18.00</p>
+        </div>
+    <div class="infocolumn">
+          <h4>Contact</h4>
+          <p><a href="mailto:media@notes-uk.co.uk?subject=Enquiry">EMAIL</a></p>
+<p>
+          <p> 	<a href="tel:02078338115">020 7240 0424</a> </p>
+          <p>31 St Martin's Ln<br> London WC2N 4ER</p>
 
 
+For the webshop and coffee subscriptions enquires email hello@notescoffee.shop
+</div>
+</div>
+
+
+
+</body>
 
 </html>
