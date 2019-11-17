@@ -97,12 +97,6 @@ width: 100%;
 
 /* Link for photo */
 
-/* .coffeerow {
-  display: flex;
-  flex-wrap: wrap;
-  Padding-top: 3px;
-  padding-bottom:3px;
-} */
 
 .coffeerow {
 position: relative;
@@ -126,11 +120,11 @@ width: 100%;
 }
 
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .coffeecolumn {
     flex: 50%;
     max-width: 50%;
-  } */
+  }
 
 
 /*  Navigation Bar */
