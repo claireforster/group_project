@@ -74,6 +74,15 @@
               }
 
 
+      /* Coffee Shops text formatting */
+      p1 {
+              color: #343a40;
+              font-family: 'Open Sans', sans-serif;
+              text-align: center;
+              box-sizing: border-box;
+              padding-top: 5rem;
+              font-size: 20px;
+      }
 
 /* Contribute Page */
 
@@ -123,9 +132,22 @@
                 }
 
 
+/* Individual Coffee Shop Pages */
+.inforow {
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-
-
+  .infocolumn {
+        flex: 33%;
+        max-width: 33%;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
 
 
 /* .icon-bar{
