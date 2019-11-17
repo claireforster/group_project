@@ -4,10 +4,8 @@
 <!-- <body style="background-color:#505050;"> -->
 
 <title> Notes </title>
-<!--Coffee Shop Logo-->
-<div>
-<img src=images/noteslogo.jpg alt="Pic1" width="270" height="175">
-</div>
+
+
 
 
 <head>
@@ -15,6 +13,7 @@
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
   <!--Css overrider Link -->
     <link rel="stylesheet" type="text/css" href="styles.css/styles.css">
+
 
     <!-- jQuery library -->
     <script>
@@ -39,6 +38,10 @@
 
 <body>
 
+<!--Coffee Shop Logo-->
+  <div class="noteslogo">
+  <img src=images/noteslogo.jpg alt="Pic1" >
+  </div>
 
 
 <!--Nav bar-->
@@ -63,26 +66,25 @@
       <h1> Coffee Roasters & Bar </h1>
 
 <!--Description-->
-<h3>
-  Enjoy the relaxed atmosphere, drinking premium ethically sourced coffee from small farms and co-operatives around the world.
-</h3>
-<h3>
-  They focus on high grade, seasonal, single origin coffee, small batch roasted to deliver a delicate and unique flavour.  Notes also offers delicious seasonally-inspired food throughout the day.
-</h3>
 
-<h3>
-  When your work is done, unwind and discover the selection of craft beers, wine and cocktails.
-</h3>
+<section class="section-about" id="about">
+		<article>
+      <p> <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+			Enjoy the relaxed atmosphere, drinking premium ethically sourced coffee from small farms and co-operatives around the world. They focus on high grade, seasonal, single origin coffee, small batch roasted to deliver a delicate and unique flavour.  Notes also offers delicious seasonally-inspired food throughout the day. When your work is done, unwind and discover the selection of craft beers, wine and cocktails. With nine prime locations across central London, a Notes Cafe is the perfect place to get your Caffeine fix.
+</p>		</article>
+	</section>
 
-<h3>
-  With nine prime locations across central London, a Notes Cafe is the perfect place to get your Caffeine fix.
-</h3>
+
+
+
+
+
 
 <!--Buttons to page links-->
 <div>
 
 <a type="button" class="btn btn-outline-secondary" href="https://notescoffee.com/">Homepage</a>
-<a type="button" class="btn btn-outline-secondary" href="https://notescoffee.com/locations">Locations</a>
+
 <a type="button" class="btn btn-outline-secondary" href="https://notescoffee.com/menus">Menu</a>
 
 <p> </p>
@@ -117,8 +119,6 @@
   <!-- Expanded image -->
   <img id="expandedImg" style="width:100%">
 
-  <!-- Image text -->
-  <div id="imgtext"></div>
 </div>
 
 
@@ -129,6 +129,7 @@
   <div class="inforow">
     <div class="infocolumn">
             <h4>Location</h4>
+            <a type="button" class="btn btn-outline-secondary" href="https://notescoffee.com/locations">Locations</a>
       </div>
       <div class="infocolumn">
             <h4>Opening Times</h4>
