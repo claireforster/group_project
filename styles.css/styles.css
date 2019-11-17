@@ -144,27 +144,41 @@
           .column img {
                 margin-top: 10px;
                 vertical-align: middle;
-                width: 100%;
+                width: 80%;
                 padding-top: 30px;
                 padding-bottom: 30px;
+                opacity: 0.8;
               }
 
+              .column img:hover {
+                  opacity: 1;
+                    }
+/*
+              .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+} */
 
-.inforow {
-    margin-right: -15px;
-    margin-left: -15px;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
+/* Additional Info Bottom */
+              .inforow {
+                  margin-right: -15px;
+                  margin-left: -15px;
+                  position: relative;
+                  width: 100%;
+                  display: flex;
+                  flex-wrap: wrap;
+                }
 
-  .infocolumn {
-        flex: 33%;
-        max-width: 33%;
-        padding-left: 30px;
-        padding-right: 30px;
-      }
+                .infocolumn {
+                      flex: 33%;
+                      max-width: 33%;
+                      padding-left: 30px;
+                      padding-right: 30px;
+                    }
 
 
 
