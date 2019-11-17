@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<!-- <body style="background-color:#505050;"> -->
+
+<title> Ask for Janice </title>
+
+
+
+
+<head>
+  <!--Bootstrap Link -->
+  <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+  <!--Css overrider Link -->
+    <link rel="stylesheet" type="text/css" href="styles.css/styles.css">
+
+
+    <!-- jQuery library -->
+    <script>
+    document.getElementById("expandedImg").defaultValue = document.getElementById("default")
+
+    function myFunction(imgs) {
+      // Get the expanded image
+      var expandImg = document.getElementById("expandedImg");
+      // Get the image text
+      var imgText = document.getElementById("imgtext");
+      // Use the same src in the expanded image as the image being clicked on from the grid
+      expandImg.src = imgs.src;
+      // Use the value of the alt attribute of the clickable image as text inside the expanded image
+      imgText.innerHTML = imgs.alt;
+      // Show the container element (hidden with CSS)
+      expandImg.parentElement.style.display = "block";
+    }
+
+    </script>
+    <!-- <script src="JS/script.js" rel="bootstrapjs"></script> -->
+</head>
+
+<body>
+
+
+
+
+<!--Nav bar-->
+    <div id="navbar" class="stick">
+      <a href="./index.html">HOME</a>
+      <a href="./aboutus.html" >ABOUT US</a>
+      <a href="./coffeeshops.html">COFFEE SHOPS</a>
+      <a href="./contribute.html">TELL US </a>
+      <a class="title" style="float:right" href="index.html">Caffeine Fix</a></li>
+    </div>
+
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+    </script>
+
+
+    <!--Coffee Shop Logo-->
+      <div class="afjlogo">
+      <img src=images/askforjanicelogo.jpg alt="Pic1" >
+      </div>
+      <p><p>
+
+    <!--Title under logo-->
+      <h1> Neighbourhood Cafe & Bar </h1>
+
+<!--Description-->
+
+<section class="section-about" id="about">
+		<article>
+      <p> <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+        A neighbourhood bar and restaurant serving local, fresh dishes, cocktails, craft beer, natural wine and a selection of gin.
+
+  Located opposite Smithfield Market, right next to the Barbican and Farringdon, we are open from early morning to late night. Our stripped back interior is filled with works from some of the most popular contemporary and street artists including Kid Acne, Damien Hirst and Pure Evil. Our basement bar is perfect for intimate parties and gatherings or a whole venue buy out gives exclusive use of both levels.
+</p>		</article>
+	</section>
+
+
+
+<p><p>
+
+
+
+<!--Buttons to page links-->
+<div>
+
+<a type="button" class="btn btn-outline-secondary" href="https://www.askforjanice.co.uk/">Website</a>
+
+
+
+<p> </p>
+
+</div>
+<!--Pictures-->
+
+
+<p> </P>
+
+
+
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="images/askforjanice.jpg" alt="" onclick="myFunction(this);"  id="default">
+  </div>
+  <div class="column">
+    <img src="images/askforjanice2.jpg" alt="" onclick="myFunction(this);" >
+  </div>
+  <div class="column">
+    <img src="images/askforjanice3.jpg" alt="" onclick="myFunction(this);" >
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+</div>
+
+
+
+
+
+<!-- Extra Information -->
+  <div class="inforow">
+    <div class="infocolumn">
+            <h4>Menus</h4>
+            <br>
+            <a type="button" class="btn btn-outline-secondary" href="https://www.askforjanice.co.uk/files/download/askforjanice-breakfast-nov-2019.pdf">Breakfast Menu</a>
+              <br>
+            <a type="button" class="btn btn-outline-secondary" href="https://www.askforjanice.co.uk/files/download/askforjanice-lunch-nov-2019.pdf">Lunch Menu</a>
+              <br>
+            <a type="button" class="btn btn-outline-secondary" href="https://www.askforjanice.co.uk/files/download/askforjanice-dinner-nov-2019.pdf">Dinner Menu</a>
+              <br>
+              <a type="button" class="btn btn-outline-secondary" href="https://www.askforjanice.co.uk/files/download/askforjanice-drinks-nov-2019.pdf">Drinks Menu</a>
+                <br>
+
+
+      </div>
+      <div class="infocolumn">
+            <h4>Opening Times</h4>
+            <p>Mon - Fri: 07.30 &mdash; 00.00&nbsp;</p>
+              <p>Saturday: 10.30 &mdash; 00.00&nbsp;</p>
+              <p>Sunday: 10.30 &mdash; 17.00</p>
+              <br>
+              <p>Also available for private hire</p>
+        </div>
+    <div class="infocolumn">
+          <h4>Contact</h4>
+          <p><a href="mailto:info@askforjanice.co.uk?subject=Enquiry">EMAIL</a></p>
+<p>
+          <p> 	<a href="tel:02076002255">0207 6002255</a> </p>
+          <p>50-52 Long Lane <br> Farringdon<br> London EC1A 9EJ</p>
+
+
+For the webshop and coffee subscriptions enquires email hello@notescoffee.shop
+</div>
+</div>
+
+
+
+</body>
+
+</html>

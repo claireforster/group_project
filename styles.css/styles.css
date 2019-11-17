@@ -138,19 +138,28 @@
 .noteslogo img {
       margin-top: 10px;
       vertical-align: middle;
-      width: 270px;
+      width: 200px;
       padding-top: 30px;
       padding-bottom: 30px;
-      height: 175px;
+      height: 140px;
       Background-color: #505050;
     }
+
+    .afjlogo img {
+          margin-top: 10px;
+          vertical-align: middle;
+          width: 200px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          height: 180px;
+        }
 
 
 
         /* General Blurb */
 
             .section-about {
-                background-color: #fafafa;
+                background-color: #fadadd;
                 color: #000;
                 padding-bottom: 50px;
                 padding-top: 50px;
