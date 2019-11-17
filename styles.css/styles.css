@@ -149,6 +149,15 @@
         padding-right: 30px;
       }
 
+h4{
+      border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    padding: .625rem 0;
+    text-transform: uppercase;
+}
 
 /* .icon-bar{
     opacity: 0;
