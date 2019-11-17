@@ -3,7 +3,7 @@
 
           body {
                   color: #343a40;
-                  font-family: 'Open Sans', sans-serif;
+                  font-family: 'Bebas Neue', cursive;
                   text-align: center;
                   box-sizing: border-box;
                   padding-top: 5rem;
@@ -16,7 +16,7 @@
                                   width: 100%;
                                   background: white;
                                   color: #343a40;
-                                  font-family: 'Open Sans', sans-serif;
+                                font-family: 'Bebas Neue', cursive;
                                   text-align: center;
                                   box-sizing: border-box;
                                 }
@@ -27,8 +27,8 @@
                                 text-align: center;
                                 padding: 16px;
                                 text-decoration: none;
-                                font-family: 'Open Sans', sans-serif;
-                                font-size: 17px;
+                                font-family: 'Bebas Neue', cursive;
+                                font-size: 23px;
                                 }
                                 #navbar a:hover {
                                   color: black;
@@ -77,7 +77,7 @@
       /* Coffee Shops text formatting */
       p1 {
               color: #343a40;
-              font-family: 'Open Sans', sans-serif;
+              font-family: 'Bebas Neue', cursive;
               text-align: center;
               box-sizing: border-box;
               padding-top: 5rem;
@@ -88,9 +88,9 @@
 
     /* Title on Contribute Page       */
               h2 {
-              font-family: 'Open Sans', sans-serif;
+              font-family: 'Bebas Neue', cursive;
               text-transform: uppercase;
-              font-size: 1.5rem;
+              font-size: 3rem;
               letter-spacing: 0.1em;
               line-height: 1em;
               margin-bottom: 20px;
@@ -106,7 +106,7 @@
                     border: 1px solid rgba(0,0,0,0);
                     background-clip: padding-box;
                     overflow: hidden;
-                    font-family: 'Open Sans', sans-serif;
+                    font-family: 'Bebas Neue', cursive;
                     background-color: #fadadd;
 
                   }
@@ -133,21 +133,93 @@
 
 
 /* Individual Coffee Shop Pages */
-.inforow {
-    margin-right: -15px;
-    margin-left: -15px;
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .infocolumn {
-        flex: 33%;
-        max-width: 33%;
-        padding-left: 30px;
-        padding-right: 30px;
-      }
+/* logo */
+.noteslogo img {
+      margin-top: 10px;
+      vertical-align: middle;
+      width: 200px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      height: 140px;
+      Background-color: #505050;
+    }
+
+    .afjlogo img {
+          margin-top: 10px;
+          vertical-align: middle;
+          width: 200px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          height: 180px;
+        }
+
+
+
+        /* General Blurb */
+
+            .section-about {
+                background-color: #fadadd;
+                color: #000;
+                padding-bottom: 50px;
+                padding-top: 50px;
+                padding-left: 100px;
+                padding-right: 100px;
+                text-align: center;
+               font-family: 'Bebas Neue', cursive;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 1.5;
+            }
+
+            section {
+                display: block;
+              }
+
+    /* Image Click trio */
+          .column { flex: 33%;
+                max-width: 33%;
+                padding-left: 30px;
+                padding-right: 30px;
+              }
+
+          .column img {
+                margin-top: 10px;
+                vertical-align: middle;
+                width: 80%;
+                padding-top: 30px;
+                padding-bottom: 30px;
+                opacity: 0.8;
+              }
+
+              .column img:hover {
+                  opacity: 1;
+                    }
+
+
+
+
+/* Additional Info Bottom */
+              .inforow {
+                  margin-right: -15px;
+                  margin-left: -15px;
+                  position: relative;
+                  width: 100%;
+                  display: flex;
+                  flex-wrap: wrap;
+                }
+
+                .infocolumn {
+                      flex: 33%;
+                      max-width: 33%;
+                      padding-left: 30px;
+                      padding-right: 30px;
+                    }
+
+
+
+
+
 
 h4{
       border-bottom: 5px solid #000;
