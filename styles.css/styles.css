@@ -133,6 +133,23 @@
 
 
 /* Individual Coffee Shop Pages */
+
+    /* Image Click trio */
+          .column { flex: 33%;
+                max-width: 33%;
+                padding-left: 30px;
+                padding-right: 30px;
+              }
+
+          .column img {
+                margin-top: 10px;
+                vertical-align: middle;
+                width: 100%;
+                padding-top: 30px;
+                padding-bottom: 30px;
+              }
+
+
 .inforow {
     margin-right: -15px;
     margin-left: -15px;
@@ -148,6 +165,11 @@
         padding-left: 30px;
         padding-right: 30px;
       }
+
+
+
+
+
 
 h4{
       border-bottom: 5px solid #000;
