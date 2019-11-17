@@ -1,11 +1,21 @@
-h1{
-        font-size: 30px;
-        font-family: 'Open Sans', sans-serif;
+
+/* Homepage only */
+/* Carousel broke when added to other styles sheet */
+
+
+/* Homepage */
+
+
+      /* Title on Homepage */
+      .HomeTitle {
+              font-size: 30px;
+              text-align: center;
+            }
+
+      body {
+              color: #343a40;
+              font-family: 'Open Sans', sans-serif;
+              text-align: center;
+              box-sizing: border-box;
+              padding-top: 5rem;
       }
-
-
-      @media screen and (max-width: 800px) {
-        .coffeecolumn {
-          flex: 100%;
-          max-width: 100%;
-        }
