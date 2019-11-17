@@ -125,10 +125,10 @@
 
 
           /* Format the submit button on form */
-                .btn {
-                  border:3px solid #343a40;
+                .button {
+                  border:4px solid #343a40;
                   background-color: white;
-
+                  color: #343a40;
                 }
 
 
@@ -230,6 +230,20 @@ h4{
     padding: .625rem 0;
     text-transform: uppercase;
 }
+
+
+/* Thank You page */
+
+.thanks {
+box-sizing: 100px;
+
+}
+
+
+
+
+
+
 
 /* .icon-bar{
     opacity: 0;

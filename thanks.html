@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<title>Thank you! </title>
+<title>Thank you </title>
 <head>
   <!--Bootstrap Link -->
   <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -13,4 +13,31 @@
     <script src="bootstrap/js/bootstrap.js" rel="bootstrapjs"></script>
 </head>
 
-<h1> thanks </h1>
+
+
+  <body>
+    <header>
+
+  <div id="navbar" class="stick">
+    <a href="./index.html">BACK TO HOME</a>
+
+  </div>
+
+  <script>
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".navbar-fixed-top");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+  </script>
+    </header>
+
+
+    <p><p>
+<div class="thankscontainer">
+<h1><link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"rel="stylesheet">Thank you!</h1>
+<div class="submitted">
+<p>Your Contribution has been submitted</p>
+</div>
+</div>
