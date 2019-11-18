@@ -134,21 +134,31 @@
                 /* About us pages */
 
                 .img-lucy {
-  width: 200px;
-  height:200px;
-  border-radius:50%;
+                  max-width: 100%;
+                  height: auto;
+                  width: 20%;
+                    background-color: white;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    margin-bottom: 25px;
+
 }
 
 .img-claire {
-  width: 200px;
-  height:200px;
-  border-radius:50%;
+  max-width: 100%;
+  height: auto;
+  width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
 }
 
 .img-olivia {
-  width: 200px;
-  height:200px;
-  border-radius:50%;
+  max-width: 100%;
+  height: auto;
+  width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
 }
 /* Social media */
 @media (max-width:900px) {
@@ -176,7 +186,7 @@
   display: inline;
 }
 .list-inline i {
-  color:#E67D98;
+  color:#BCD7C6;
   padding:0px;
   font-size: 48px;
   margin: 10px;
