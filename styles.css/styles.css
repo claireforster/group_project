@@ -214,7 +214,14 @@
           padding-bottom: 30px;
           height: 180px;
         }
-
+        .gsclogo img {
+              margin-top: 10px;
+              vertical-align: middle;
+              width: 200px;
+              padding-top: 30px;
+              padding-bottom: 30px;
+              height: 255px;
+            }
 
 
         /* General Blurb */
