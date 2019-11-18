@@ -1,0 +1,84 @@
+body {
+        color: #343a40;
+          font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 5rem;
+}
+
+
+/*  Navigation Bar */
+                          .stick {
+                            position: fixed;
+                            top: 5px;
+                            width: 100%;
+                            background: white;
+                            color: #343a40;
+                            font-family: 'Bebas Neue', cursive;
+                            text-align: center;
+                            box-sizing: border-box;
+                          }
+                          #navbar a{
+                          float: left;
+                          display: block;
+                          color: #343a40;
+                          text-align: center;
+                          padding: 16px;
+                          text-decoration: none;
+                          font-family: 'Bebas Neue', cursive;
+                          font-size: 23px;
+                          }
+                          #navbar a:hover {
+                            color: black;
+                          }
+
+                          /* About us pages */
+
+                          .img-lucy {
+            width: 200px;
+            height:200px;
+            border-radius:50%;
+          }
+
+          .img-claire {
+            width: 200px;
+            height:200px;
+            border-radius:50%;
+          }
+
+          .img-olivia {
+            width: 200px;
+            height:200px;
+            border-radius:50%;
+          }
+          /* Social media */
+          @media (max-width:900px) {
+            .container{
+              width:700px;
+            }
+          }
+
+          @media (max-width: 700px) {
+            .container {
+              width:500px;
+            }
+          }
+
+          @media (max-width: 500px) {
+            .container {
+              width: 300px;
+            }
+          }
+          .list-inline {
+            list-style: none;
+            padding: 0px;
+          }
+          .list-inline li {
+            display: inline;
+          }
+          .list-inline i {
+            color:#E67D98;
+            padding:0px;
+            font-size: 48px;
+            margin: 10px;
+          }
