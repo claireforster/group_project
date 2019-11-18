@@ -1,60 +1,82 @@
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+
+<html>
+
 
 
     <title> About Us </title>
 
-    <!-- <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous"> -->
-<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="styles.css/stylesaboutus.css" rel="stylesheet">
+    <head>
+      <!--Bootstrap Link -->
+      <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+      <!--Css overrider Link -->
+        <link rel="stylesheet" type="text/css" href="styles.css/styles.css">
 
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
+        <!-- jQuery library -->
 
-  <body>
-
-
-
-  <div id="navbar" class="stick">
-    <a href="./index.html">HOME</a>
-    <a href="./aboutus.html" >ABOUT US</a>
-    <a href="./coffeeshops.html">COFFEE SHOPS</a>
-    <a href="./contribute.html">TELL US </a>
-    <a class="title" style="float:right" href="index.html">Caffiene Fix</a></li>
-  </div>
+        <script src="bootstrap/js/bootstrap.js" rel="bootstrapjs"></script>
+        	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
 
 
 
+    <body>
+      <header>
 
+    <div id="navbar" class="stick">
+      <a href="./index.html">HOME</a>
+      <a href="./aboutus.html" >ABOUT US</a>
+      <a href="./coffeeshops.html">COFFEE SHOPS</a>
+      <a href="./contribute.html">TELL US </a>
+      <a class="title" style="float:right" href="index.html">Caffeine Fix</a></li>
+    </div>
 
-
+    <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+    </script>
+      </header>
 
     <main role="main" class="container">
 
+      <div class="CoffeeTitle">
+      <h2><link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"rel="stylesheet">About Us</h2>
+        <p>  A little bit about the creators of Caffeine Fix  </p>
 
-        <h1>About Us</h1>
-        <p> A little bit about the creators of Caffeine Fix </p>
+        <br>
+        <br>
 
-      <h2> Lucy </h2>
+
       <img class="img-lucy" src="images/lucy.jpg" alt="picture of lucy">
-      <p> I'm great! </p>
+      <h2><link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"rel="stylesheet"> Lucy </h2>
+      <p> I'm Lucy from Birmingham. I love coding and coffee shops and can't wait to hear from you. </p>
+      <br>
+      <br>
 
-    <h2> Claire </h2>
+
     <img class="img-claire" src="images/claire.jpg" alt="pic of claire">
-    <p> I'm amazing! </p>
+    <br>
+    <br>
+      <h2><link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"rel="stylesheet"> Claire </h2>
+    <p> I'm Claire and I'm from Surrey.
+       I love coding and have really enjoyed making this website for you. </p>
+       <br>
+       <br>
 
-    <h2> Olivia </h2>
     <img class="img-olivia" src="images/olivia.jpg" alt="pic of claire">
-    <p> I'm amazing! </p>
+      <h2><link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"rel="stylesheet"> Olivia </h2>
+    <p> I'm Olivia and I love coding. It's so great to make a website for you guys to use! </p>
 <br>
-<br>
-<br>
+
 
 
       <!-- Footer -->
       <div class="card-white">
-	<h3>We're Social</h3>
+	<h3><link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap"rel="stylesheet">We're Social</h3>
 	<ul class="list-inline">
 		<li><a href="https://www.facebook.com/lucy.shaughnessy"><i class="fab fa-facebook-square"></i></a></li>
 		<li><a href="https://www.instagram.com/lucyshaughnessy/"><i class="fab fa-instagram"></i></a></li>
@@ -68,10 +90,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="https://getbootstrap.com/docs/4.1/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com/docs/4.1/dist/js/bootstrap.min.js"></script>
+
   </body>
 </html>
 
