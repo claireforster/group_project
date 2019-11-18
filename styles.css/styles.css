@@ -131,7 +131,66 @@
                   color: #343a40;
                 }
 
+                /* About us pages */
 
+                .img-lucy {
+                  max-width: 100%;
+                  height: auto;
+                  width: 20%;
+                    background-color: white;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                    margin-bottom: 25px;
+
+}
+
+.img-claire {
+  max-width: 100%;
+  height: auto;
+  width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.img-olivia {
+  max-width: 100%;
+  height: auto;
+  width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+/* Social media */
+@media (max-width:900px) {
+  .container{
+    width:700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width:500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+.list-inline li {
+  display: inline;
+}
+.list-inline i {
+  color:#BCD7C6;
+  padding:0px;
+  font-size: 48px;
+  margin: 10px;
+}
 
 
 /* Individual Coffee Shop Pages */
